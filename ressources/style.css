@@ -1,0 +1,45 @@
+img,
+embed,
+object,
+video,
+iframe {
+    max-width: 100%;
+}
+
+.on {
+    opacity: 1;
+    transition-duration: 1000ms;
+}
+.off {
+    opacity: 0;
+    transition-duration: 1000ms;
+}
+
+.row {
+    padding: 10px;
+}
+
+.editors .words textarea{
+    width: 100%;
+}
+
+.randomQuote {
+    text-align: center;
+    color: #FF8888;
+    background:
+        -webkit-linear-gradient(45deg, hsla(340, 100%, 55%, 1) 0%, hsla(340, 100%, 55%, 0) 70%),
+        -webkit-linear-gradient(315deg, hsla(336, 100%, 55%, 1) 10%, hsla(336, 100%, 55%, 0) 80%),
+        -webkit-linear-gradient(225deg, hsla(336, 90%, 68%, 1) 10%, hsla(336, 90%, 68%, 0) 80%),
+        -webkit-linear-gradient(135deg, hsla(332, 95%, 73%, 1) 100%, hsla(332, 95%, 73%, 0) 70%);
+    background:
+        linear-gradient(45deg, hsla(340, 100%, 55%, 1) 0%, hsla(340, 100%, 55%, 0) 70%),
+        linear-gradient(135deg, hsla(336, 100%, 55%, 1) 10%, hsla(336, 100%, 55%, 0) 80%),
+        linear-gradient(225deg, hsla(336, 90%, 68%, 1) 10%, hsla(336, 90%, 68%, 0) 80%),
+        linear-gradient(315deg, hsla(332, 95%, 73%, 1) 100%, hsla(332, 95%, 73%, 0) 70%);
+}
+.randomQuote p{
+    font-size: 36px;
+}
+.randomQuote img{
+    font-size: 36px;
+}
